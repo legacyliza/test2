@@ -6,6 +6,8 @@
 }
 body{
     font-family: 'Brands', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .image{
     width: 100%;
@@ -24,10 +26,10 @@ body{
     left: 90px;
 }
 .box i{
-    font-size: 40px;
+    font-size: 60px;
     display: block;
     text-align: center;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 .header{
     display: flex;
@@ -63,7 +65,7 @@ body{
     border-radius: 5px;
 }
 article{
-    margin: 0px 80px 0px 120px;
+    margin: 0px auto;
 }
 .text1{
     color: gray;
@@ -78,7 +80,9 @@ article{
 }
 .blocks{
     display: flex;
+    justify-content: center;
 }
+
 .block1{
 background-color: #EDEDED;
 margin: 40px 20px 20px 20px;
@@ -108,6 +112,7 @@ padding: 0px 5px 5px 10px;
     line-height: 40px;
     margin: 20px 5px 5px 20px;
     display: inline-block;
+    justify-content: center;
 }
 .block2{
     background-color: #EDEDED;
